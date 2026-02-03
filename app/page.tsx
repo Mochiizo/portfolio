@@ -13,7 +13,7 @@ export default function Home() {
         <nav className="flex items-center justify-between pb-8 border-b border-sky-200">
           <div>
             <img
-              src="/Logo.jpg"
+              src="/Logo.JPG"
               alt="logo"
               width={60}
               height={60}
