@@ -67,11 +67,11 @@ export default function Home() {
             <Linkedin className="w-5 h-5" />
             LinkedIn
           </a>
-          <a href="#" className="flex items-center gap-2 text-neutral-500 hover:text-sky-900 transition duration-150 underline-offset-4 hover:underline">
+          <a href="https://x.com/HAUTBOIS_M" className="flex items-center gap-2 text-neutral-500 hover:text-sky-900 transition duration-150 underline-offset-4 hover:underline">
             <TwitterIcon className="w-5 h-5" />
             Twitter
           </a>
-          <a href="promathis.hautbois@gmail.com" className="flex items-center gap-2 text-neutral-500 hover:text-sky-900 transition duration-150 underline-offset-4 hover:underline">
+          <a href="/contact" className="flex items-center gap-2 text-neutral-500 hover:text-sky-900 transition duration-150 underline-offset-4 hover:underline">
             <Mail className="w-5 h-5" />
             Email
           </a>

@@ -85,7 +85,7 @@ export default function ContactPage() {
             <div>
               <label className="text-sky-300 text-sm font-medium flex items-center gap-2 mb-1">
                 <Mail className="text-sky-300 w-4 h-4 text-primary" />
-                titre
+                Titre
               </label>
               <input
                 type="text"

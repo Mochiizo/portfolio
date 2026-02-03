@@ -8,7 +8,7 @@ export default function ExperienceSection(){
             <ExperienceCard
             company="SFR Réunion & Mayotte"
             role="Alternant Développeur"
-            date="Décembre 2024 - Octobre, 2025"
+            date="Décembre 2024 - Octobre 2025"
             location="Saint-Denis, Réunion"
             logo="/sfr.png"
             points=
@@ -36,7 +36,7 @@ export default function ExperienceSection(){
       <ExperienceCard
         company="Suez Réunion"
         role="Stagiaire Développeur"
-        date="Décembre 2024 - Octobre, 2025"
+        date="Décembre 2024 - Octobre 2025"
         location="Saint-Marie, Réunion"
         logo="/suez.webp"
         points={[
