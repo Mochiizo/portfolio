@@ -11,12 +11,12 @@ const projects: {
 }[] = [
   // Plus tard tu pourras ajouter tes projets ici
   // Exemple :
-  // {
-  //   title: "Mon Portfolio",
-  //   description: "Portfolio perso en Next.js + Tailwind",
-  //   techs: ["Next.js", "React", "Tailwind"],
-  //   link: "https://monportfolio.com"
-  // }
+   {
+     title: "Mon Portfolio",
+     description: "Portfolio perso en Next.js + Tailwind",
+     techs: ["Next.js", "React", "Tailwind", "Email.js", "Shadcn ui"],
+     link: "https://github.com/Mochiizo/portfolio"
+   }
 ];
 
 export default function ProjectsSection() {
@@ -39,11 +39,11 @@ export default function ProjectsSection() {
           <p>Aucun projet pour le moment. Ils arriveront bientôt !</p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4 w-full">
           {projects.map((project) => (
             <div
               key={project.title}
-              className="group relative rounded-xl border border-body/20 border-dotted p-5 transition-all duration-300 ease-in-out hover:bg-hoverColor/50 hover:scale-[1.02] hover:border-primary/40"
+              className="group relative rounded-xl border border-body/20 border-dotted p-5 transition-all duration-300 ease-in-out hover:bg-hoverColor/50 hover:scale-[1.02] md:hover:bg-sky-100/20"
             >
               <h3 className="text-title text-sm font-semibold tracking-tight mb-2">
                 {project.title}
@@ -64,7 +64,7 @@ export default function ProjectsSection() {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm text-primary hover:underline mt-2 inline-block"
+                  className="text-sm text-primary hover:underline mt-2 inline-block transition md:hover:text-sky-500"
                 >
                   Voir le projet
                 </a>
