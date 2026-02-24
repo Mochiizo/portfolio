@@ -16,6 +16,12 @@ const projects: {
      description: "Portfolio perso en Next.js + Tailwind",
      techs: ["Next.js", "React", "Tailwind", "Email.js", "Shadcn ui"],
      link: "https://github.com/Mochiizo/portfolio"
+   },
+   {
+    title: "Todo-List",
+    description: "Une Todo-list pour mieux gérer son temps",
+    techs: ["Next.js", "React", "Tailwind", "Bcrypt", "Shadcn ui", "jwt", "Clean Code"],
+    link: "https://github.com/Mochiizo/todo-app"
    }
 ];
 

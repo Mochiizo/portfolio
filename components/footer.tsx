@@ -26,7 +26,7 @@ export default function Footer() {
       <div className="flex items-center justify-between pt-4 text-xs">
         <div className="flex items-center gap-1">
           <Lightbulb className="w-4 h-4 text-title" />
-          <span>Mise à jour le 03 Février 2026</span>
+          <span>Mise à jour le 24 Février 2026</span>
         </div>
 
         <div className="flex items-center gap-2">
