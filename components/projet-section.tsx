@@ -22,6 +22,12 @@ const projects: {
     description: "Une Todo-list pour mieux gérer son temps",
     techs: ["Next.js", "React", "Tailwind", "Bcrypt", "Shadcn ui", "jwt", "Clean Code"],
     link: "https://github.com/Mochiizo/todo-app"
+   },
+   {
+    title: "Gen-Password",
+    description: "Un générateur et gestionnaire de mot de passes",
+    techs: ["Next.js","Tailwind", "Crypto-js", "Shadcn ui"],
+    link: "https://github.com/Mochiizo/gen-pass"
    }
 ];
 

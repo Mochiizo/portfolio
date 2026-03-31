@@ -42,7 +42,7 @@ export default function ContactPage() {
         
         {/* TITLE */}
         <div>
-          <h1 className=" text-sky-400 text-4xl font-serif font-bold text-primary tracking-tight">
+          <h1 className=" text-sky-700 text-4xl font-serif font-bold text-primary tracking-tight">
             Contact
           </h1>
           <p className="text-muted-foreground text-sm mt-1">
@@ -57,8 +57,8 @@ export default function ContactPage() {
             
             {/* NAME */}
             <div>
-              <label className="text-sky-300 text-sm font-medium flex items-center gap-2 mb-1">
-                <User className="text-sky-300 w-4 h-4 text-primary" />
+              <label className="text-sky-600 text-sm font-medium flex items-center gap-2 mb-1">
+                <User className="text-sky-600 w-4 h-4 text-primary" />
                  Nom
               </label>
               <input
@@ -71,8 +71,8 @@ export default function ContactPage() {
 
             {/* EMAIL */}
             <div>
-              <label className="text-sky-300 text-sm font-medium flex items-center gap-2 mb-1">
-                <Mail className="text-sky-300 w-4 h-4 text-primary" />
+              <label className="text-sky-600 text-sm font-medium flex items-center gap-2 mb-1">
+                <Mail className="text-sky-600 w-4 h-4 text-primary" />
                 Email
               </label>
               <input
@@ -83,8 +83,8 @@ export default function ContactPage() {
               />
             </div>
             <div>
-              <label className="text-sky-300 text-sm font-medium flex items-center gap-2 mb-1">
-                <Mail className="text-sky-300 w-4 h-4 text-primary" />
+              <label className="text-sky-600 text-sm font-medium flex items-center gap-2 mb-1">
+                <Mail className="text-sky-600 w-4 h-4 text-primary" />
                 Titre
               </label>
               <input
@@ -97,8 +97,8 @@ export default function ContactPage() {
 
             {/* MESSAGE */}
             <div>
-              <label className="text-sky-300 text-sm font-medium flex items-center gap-2 mb-1">
-                <MessageSquare className="text-sky-300 w-4 h-4 text-primary" />
+              <label className="text-sky-600 text-sm font-medium flex items-center gap-2 mb-1">
+                <MessageSquare className="text-sky-600 w-4 h-4 text-primary" />
                 Message
               </label>
               <textarea
@@ -112,7 +112,7 @@ export default function ContactPage() {
             {/* BUTTON */}
             <button
               type="submit"
-              className="bg-sky-300 w-full rounded-lg bg-primary text-white py-2 font-medium transition hover:bg-sky-600"
+              className="bg-sky-600 w-full rounded-lg bg-primary text-white py-2 font-medium transition hover:bg-sky-600"
             >
               Envoyer le message
             </button>
